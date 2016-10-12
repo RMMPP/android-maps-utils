@@ -1,0 +1,47 @@
+//Brief description of the project
+
+Este projecto consiste numa biblioteca open source que pode ser utilizada pela API do Google Maps, principalmente no sistema Android. 
+Esta biblioteca contem varias funcionalidades:
+
+Marker clustering — gere o display de um grande numero de marcadores
+Heat maps — gere o display de vários pontos sob a forma de heat map
+IconGenerator — gere o display de texto nos marcadores
+Poly decoding and encoding — codigo compacto para caminhos e interoperabilidade com o serviço web da Maps API
+Spherical geometry — for example: computeDistance, computeHeading, computeArea
+KML — faz display da KML data
+GeoJSON — faz display e personaliza GeoJSON data
+
+O programa tem como objectivo fazer a manutenção da biblioteca e mantê-la relavante para que outros developpers a possam utilizar nas suas
+próprias aplicações. Esta biblioteca não tem cliente final, ou seja, o processo de validação é feito por utilizadores que decidam usar a
+biblioteca nos seus próprios projectos e no caso de haver falta de funcionalidades ou imperfeições podem ou nao ser comunicadas aos 
+autores via Git.
+
+//Briefly describe the development process
+
+Na procura do processo de desenvolvimento entramos em contacto com Maciej Górski e com Chris Broadfoot. O Chris foi o autor inicial do 
+projecto mas infellizmente não conseguimos que ele nos respondesse. O Maciej embora tenha respondido informou-nos que já não se
+encontra envolvido com o projecto e diferiu-nos para o Chris. Estamos ainda a espera de resposta.
+
+Por observação do projecto podemos inferir com uma certa certeza que o processo que mais assemelha ao desenvolvimento trata-se do 
+Processo de desenvolvimento e entrega incremental. Dizemos isto pois o programa vai avançando por versões onde os diferentes utilizadores
+vão submetendo pequenas adições e correcções as diferentas facetas do programa que são posteriormente revistas e aprovadas pelos autores.
+Mas não existe muita documentação sobre as tarefas. Inicialmente a biblioteca foi começada por "Broady" que nos primeiros meses fez grande
+parte do desenvolvimento, deixando pouca documentação. Em seguida "microcat" tambem contribuiu com bastante depois das contribuições
+de "broady" baixarem, mas não existe documentação.
+
+A biblioteca foi constriuda por individuos que pouco comunicaram entre eles e foram fazendo as alterações que achavam pertinentes. Isto
+prova que houve uma falta de planeamento e estruturação bem como uma falta de documentação do processo. Existem muitas acções correctivas
+e adaptativas pois existe uma lista de "issues"(problemas) que os utilizadores podem ver e participar na sua correcção. Effectivamente
+isto mostra um nível muito básico de organização e muito pouco efficiente.
+
+De forma a aumentar a produtividade do programa sugerimos a implementação das seguintes medidas:
+
+- Uma lista de actividades a desenvolver, bem como o ponto actual do desenvolvimento
+Neste momento baseado na falta de documentação, não existe uma lista funcionalidades implementadas, o utilizador tem de instalar a 
+aplicação e testa-la de forma a ver o que funciona.
+
+- Apontar um manager ao projecto que faz um controlo de qualidade interativo.
+A biblioteca encontra-se pouco supervisionada. É necessario a existência de alguém que teste as funcionalidades periodicamente e que
+mantenha um log de funcionamento, ou seja, se a aplicação funciona como esperado ou se existem falhas. O responsavel deve então 
+documentar as falhas em diferentes cenários de arquitetura, bem como os seus sucessos. (p.ex: funciona em androids de versão x para cima
+e as funcinalidades GeoJSON não funciona em certos modelos).
