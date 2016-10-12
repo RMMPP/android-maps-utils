@@ -1,12 +1,18 @@
 //Brief description of the project
 
-Este projecto consiste numa biblioteca open source que pode ser utilizada pela API do Google Maps, principalmente no sistema Android. 
-Esta biblioteca contem varias funcionalidades:
+Este projecto consiste numa biblioteca open source que pode ser utilizada por aplicações que fazem uso da API do Google Maps, 
+principalmente no sistema operativo para dispositivos móveis, neste caso Android.
 
-Marker clustering — gere o display de um grande numero de marcadores
-Heat maps — gere o display de vários pontos sob a forma de heat map
-IconGenerator — gere o display de texto nos marcadores
-Poly decoding and encoding — codigo compacto para caminhos e interoperabilidade com o serviço web da Maps API
+O objectivo é da biblioteca é acrescentar utilitários (add-ons), partindo da API existente da Google, entre eles salientamos:
+
+Marker clustering — permite dividir o mapa em quadrados com um determinado tamanho, o tamanaho depende do nível de zoom utilizado, e agrupa
+      os marcadores nos quadradro;
+Heat maps — Uma camada mapa de calor é a visualização que demonstra a intensidade dos dados em determinados pontos geográficos.
+            Quando uma camada de calor é activada um sobreposição colorida é exibida sobre o mapa;
+IconGenerator — Permite criar e gerir icons contendo texto com info sob a forma de uma janela;
+Poly decoding and encoding — Codigo compacto para caminhos e interoperabilidade com o serviço web da Maps API. As polylinhas na API do
+            google são formadas por um conjunto de refências que indentificam a latitude e longitude de um determinado ponto. Através do
+            "encoding"  compactamos uma série de coordenadas (latitude longitude), que designamos por caminho, numa única string.
 Spherical geometry — for example: computeDistance, computeHeading, computeArea
 KML — faz display da KML data
 GeoJSON — faz display e personaliza GeoJSON data
