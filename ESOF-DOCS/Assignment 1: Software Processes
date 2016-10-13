@@ -28,22 +28,28 @@ Na procura do processo de desenvolvimento entramos em contacto com Maciej Górsk
 projecto mas infellizmente não conseguimos que ele nos respondesse. O Maciej embora tenha respondido informou-nos que já não se
 encontra envolvido com o projecto e diferiu-nos para o Chris. Estamos ainda a espera de resposta.
 
-Por observação do projecto podemos inferir com uma certa certeza que o processo que mais assemelha ao desenvolvimento trata-se do 
-Processo de desenvolvimento e entrega incremental. Dizemos isto pois o programa vai avançando por versões onde os diferentes utilizadores
+Por observação do projecto podemos inferir com uma certa certeza que o processo que mais assemelha ao desenvolvimento, seja o  
+processo de desenvolvimento e entrega incremental. Dizemos isto pois o programa vai avançando por versões onde os diferentes utilizadores
 vão submetendo pequenas adições e correcções as diferentas facetas do programa que são posteriormente revistas e aprovadas pelos autores.
-Mas não existe muita documentação sobre as tarefas. Inicialmente a biblioteca foi começada por "Broady" que nos primeiros meses fez grande
-parte do desenvolvimento, deixando pouca documentação. Em seguida "microcat" tambem contribuiu com bastante depois das contribuições
+Mas não existe muita documentação a que possamos recorrer para saber a lista de tarefas a desenvolver. Com isso também não nós é possível
+identificar o ponto actual do projecto.
+Inicialmente a biblioteca foi começada por "Broady" que nos primeiros meses fez grande parte do desenvolvimento, deixando pouca documentação. Em seguida "microcat" tambem contribuiu com bastante depois das contribuições
 de "broady" baixarem, mas não existe documentação.
 
 A biblioteca foi constriuda por individuos que pouco comunicaram entre eles e foram fazendo as alterações que achavam pertinentes. Isto
 prova que houve uma falta de planeamento e estruturação bem como uma falta de documentação do processo. Existem muitas acções correctivas
-e adaptativas pois existe uma lista de "issues"(problemas) que os utilizadores podem ver e participar na sua correcção. Effectivamente
-isto mostra um nível muito básico de organização e muito pouco efficiente.
+e adaptativas pois existe uma lista de "issues" (problemas) que os utilizadores podem ver e participar na sua correcção. Effectivamente
+isto mostra um nível muito básico de organização e muito pouco eficiente.
+
+Após a verificação dos commit's efectuados podemos verificar que não existe planeamento temporal, mem prazo pré-definidos-
+
+//Suggest
 
 De forma a aumentar a produtividade do programa sugerimos a implementação das seguintes medidas:
 
-- Uma lista de actividades a desenvolver, bem como o ponto actual do desenvolvimento
-Neste momento baseado na falta de documentação, não existe uma lista funcionalidades implementadas, o utilizador tem de instalar a 
+- Uma lista de actividades a desenvolver, bem como o ponto actual do desenvolvimento;
+- Criação de um log de activades desenvolvidas, com eventuais pontos a melhorar;
+- Neste momento baseado na falta de documentação, não existe uma lista funcionalidades implementadas, o utilizador tem de instalar a 
 aplicação e testa-la de forma a ver o que funciona.
 
 - Apontar um manager ao projecto que faz um controlo de qualidade interativo.
