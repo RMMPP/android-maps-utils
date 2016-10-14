@@ -26,7 +26,7 @@ Mas não existe muita documentação a que possamos recorrer para saber a lista 
 
 A biblioteca foi construida por individuos que aparentemente pouco comunicaram entre eles e foram fazendo as alterações que achavam pertinentes. Isto sugere que houve uma falta de planeamento e estruturação bem como uma falta de documentação do processo. Existem muitas acções correctivas e adaptativas pois existe uma lista de "issues" (problemas) que os utilizadores podem ver e participar na sua correcção. Efetivamente isto mostra um nível muito básico de organização e muito pouco eficiente.
 
-Após a verificação dos commit's efectuados podemos verificar que não existe planeamento temporal, nem prazo pré-definidos.
+Após a verificação dos commits efectuados podemos verificar que não existe planeamento temporal, nem prazo pré-definidos.
 
 Sugerimos a implementação das seguintes medidas:
 - Uma lista de actividades a desenvolver, bem como o ponto actual do desenvolvimento;
