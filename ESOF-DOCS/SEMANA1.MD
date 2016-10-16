@@ -1,3 +1,4 @@
+
 Este projecto consiste numa biblioteca open source que pode ser utilizada por aplicações que fazem uso da API do Google Maps, principalmente no sistema operativo para dispositivos móveis, neste caso Android.
 
 O objectivo é da biblioteca é acrescentar utilitários (add-ons), partindo da API existente da Google, entre eles salientamos:
@@ -35,3 +36,6 @@ Sugerimos a implementação das seguintes medidas:
 - Apontar um manager ao projecto que faz um controlo de qualidade interativo. A biblioteca encontra-se pouco supervisionada. É necessario a existência de alguém que teste as funcionalidades periodicamente e que mantenha um log de funcionamento, ou seja, se a aplicação funciona como esperado ou se existem falhas. O responsavel deve então documentar as falhas em diferentes cenários de arquitetura, bem como os seus sucessos. (p.ex: funciona em androids de versão x para cima e as funcinalidades GeoJSON não funciona em certos modelos).
 
 Jocosamente, a grande temática do processo de desenvolvimento deste projecto aparenta ser a ausência de documentação adequada.
+
+Este relatório foi efectuado com a colaboração de todos os elementos do grupo de trabalho, através de reniões onde foram discutidos
+os diferentes aspectos do processo de desenvolvimento do projecto.
